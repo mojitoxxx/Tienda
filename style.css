@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #0b101a;
+    color: #e6e9ef;
+}
+
+header {
+    background: linear-gradient(90deg, #111827, #1e293b);
+    padding: 18px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #0a6cff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+button {
+    cursor: pointer;
+    padding: 9px 16px;
+    border: none;
+    border-radius: 6px;
+    background: #0a6cff;
+    color: white;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #3b8bff;
+}
+
+#contador {
+    background: #ef4444;
+    border-radius: 50%;
+    padding: 2px 8px;
+    font-size: 13px;
+    margin-left: 6px;
+}
+
+#controles {
+    padding: 20px 30px 0;
+    display: flex;
+    gap: 10px;
+}
+
+#buscador,
+#orden {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #334155;
+    background: #131b2a;
+    color: #e6e9ef;
+}
+
+#buscador {
+    flex: 1;
+}
+
+#categorias {
+    padding: 15px 30px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+#categorias button {
+    background: #1e293b;
+}
+
+#categorias button:hover {
+    background: #334155;
+}
+
+#categorias button.activo {
+    background: #0a6cff;
+}
+
+#productos {
+    padding: 0 30px 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 22px;
+}
+
+.tarjeta {
+    background: #131b2a;
+    border: 1px solid #1f2a3d;
+    border-radius: 12px;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+    border-color: #0a6cff;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 8px;
+    background: #fff;
+}
+
+.tarjeta h3 {
+    margin: 4px 0 0;
+}
+
+.tarjeta p {
+    margin: 0;
+    font-size: 14px;
+    color: #b6bfce;
+}
+
+.tarjeta .categoria {
+    color: #60a5fa;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.tarjeta .precio {
+    font-weight: bold;
+    font-size: 22px;
+    color: #fff;
+}
+
+.tarjeta button {
+    margin-top: auto;
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    justify-content: center;
+    align-items: center;
+}
+
+#modalContenido {
+    background: #131b2a;
+    border: 1px solid #1f2a3d;
+    padding: 25px;
+    border-radius: 12px;
+    width: 92%;
+    max-width: 620px;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.lineaCesta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #1f2a3d;
+    padding: 10px 0;
+    gap: 10px;
+}
+
+.lineaCesta span:first-child {
+    flex: 1;
+}
+
+.lineaCesta .btnEliminar {
+    background: #dc2626;
+}
+
+#total {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+}
+
+#btnCerrar {
+    background: #475569;
+}
+
+#toast {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #22c55e;
+    color: #052e16;
+    font-weight: bold;
+    padding: 12px 22px;
+    border-radius: 8px;
+}

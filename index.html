@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Informática</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda de Informática</h1>
+        <button id="btnCesta">Ver Cesta <span id="contador">0</span></button>
+    </header>
+
+    <section id="controles">
+        <input type="text" id="buscador" placeholder="Buscar producto... por ejemplo: Nvidia, AMD o Intel">
+        <select id="orden">
+            <option value="">Ordenar por...</option>
+            <option value="precioAsc">Precio: menor a mayor</option>
+            <option value="precioDesc">Precio: mayor a menor</option>
+            <option value="nombre">Nombre (A-Z)</option>
+            <option value="stock">Stock disponible</option>
+        </select>
+    </section>
+
+    <section id="categorias"></section>
+
+    <main id="productos"></main>
+
+    <!-- Ventana de la cesta -->
+    <div id="modal">
+        <div id="modalContenido">
+            <h2>Tu cesta</h2>
+            <p id="envio"></p>
+            <div id="listaCesta"></div>
+            <p id="total"></p>
+            <button id="btnFinalizar">Finalizar Compra</button>
+            <button id="btnCerrar">Cerrar</button>
+        </div>
+    </div>
+
+    <div id="toast"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

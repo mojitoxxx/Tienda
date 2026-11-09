@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "name": "NVIDIA RTX 5080",
+        "category": "Tarjetas gráficas",
+        "description": "Tarjeta gráfica de gama alta con 16 GB GDDR7, ray tracing y DLSS.",
+        "price": 999.99,
+        "stock": 1,
+        "image": "img/nvidia-rtx-5080.jpg"
+    },
+    {
+        "id": 2,
+        "name": "NVIDIA RTX 4070",
+        "category": "Tarjetas gráficas",
+        "description": "Gráfica de gama media-alta con 12 GB GDDR6X, ideal para jugar en 1440p.",
+        "price": 599.9,
+        "stock": 14,
+        "image": "img/nvidia-rtx-4070.jpg"
+    },
+    {
+        "id": 3,
+        "name": "NVIDIA RTX 3090",
+        "category": "Tarjetas gráficas",
+        "description": "Gráfica de gama alta con 24 GB GDDR6X para juegos y creación de contenido.",
+        "price": 1099.5,
+        "stock": 3,
+        "image": "img/nvidia-rtx-3090.jpg"
+    },
+    {
+        "id": 4,
+        "name": "AMD Radeon RX 6800 XT",
+        "category": "Tarjetas gráficas",
+        "description": "Tarjeta con 16 GB GDDR6, muy buen rendimiento en 1440p y 4K.",
+        "price": 479,
+        "stock": 9,
+        "image": "img/amd-radeon-rx-6800-xt.jpg"
+    },
+    {
+        "id": 5,
+        "name": "NVIDIA GTX 1080 Ti",
+        "category": "Tarjetas gráficas",
+        "description": "Clásica gráfica de arquitectura Pascal con 11 GB GDDR5X.",
+        "price": 249.99,
+        "stock": 1,
+        "image": "img/nvidia-gtx-1080-ti.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Intel Core i7-6700K",
+        "category": "Procesadores",
+        "description": "Procesador de 4 núcleos y 8 hilos, socket LGA 1151, base de 4.0 GHz.",
+        "price": 149.99,
+        "stock": 8,
+        "image": "img/intel-core-i7-6700k.jpg"
+    },
+    {
+        "id": 7,
+        "name": "AMD Ryzen 9 5900X",
+        "category": "Procesadores",
+        "description": "12 núcleos y 24 hilos, socket AM4, hasta 4.8 GHz en modo turbo.",
+        "price": 329.99,
+        "stock": 11,
+        "image": "img/amd-ryzen-9-5900x.jpg"
+    },
+    {
+        "id": 8,
+        "name": "AMD Ryzen 5 5600X",
+        "category": "Procesadores",
+        "description": "6 núcleos y 12 hilos, la opción equilibrada para jugar.",
+        "price": 139.9,
+        "stock": 20,
+        "image": "img/amd-ryzen-5-5600x.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Intel Core i9-12900K",
+        "category": "Procesadores",
+        "description": "16 núcleos y 24 hilos, socket LGA 1700, hasta 5.2 GHz.",
+        "price": 369,
+        "stock": 5,
+        "image": "img/intel-core-i9-12900k.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Intel Core i5-12400F",
+        "category": "Procesadores",
+        "description": "6 núcleos y 12 hilos sin gráficos integrados, socket LGA 1700.",
+        "price": 119.95,
+        "stock": 1,
+        "image": "img/intel-core-i5-12400f.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Corsair Vengeance 16GB DDR4",
+        "category": "Memoria y almacenamiento",
+        "description": "Kit de 2x8 GB de memoria DDR4 de Corsair.",
+        "price": 44.99,
+        "stock": 30,
+        "image": "img/corsair-vengeance-16gb-ddr4.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Kingston FURY Impact 32GB DDR5",
+        "category": "Memoria y almacenamiento",
+        "description": "Memoria DDR5 SO-DIMM de 32 GB para portátiles.",
+        "price": 119.9,
+        "stock": 15,
+        "image": "img/kingston-fury-impact-32gb-ddr5.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Samsung 980 Pro 1TB",
+        "category": "Memoria y almacenamiento",
+        "description": "SSD NVMe PCIe 4.0 con lecturas de hasta 7000 MB/s.",
+        "price": 94.5,
+        "stock": 18,
+        "image": "img/samsung-980-pro-1tb.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Crucial MX500 1TB",
+        "category": "Memoria y almacenamiento",
+        "description": "SSD SATA de 2.5 pulgadas y 1 TB, fiable y económico.",
+        "price": 69.9,
+        "stock": 25,
+        "image": "img/crucial-mx500-1tb.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Seagate Barracuda Green 2TB",
+        "category": "Memoria y almacenamiento",
+        "description": "Disco duro mecánico de 2 TB para guardar muchos datos.",
+        "price": 54.9,
+        "stock": 12,
+        "image": "img/seagate-barracuda-green-2tb.jpg"
+    }
+]
